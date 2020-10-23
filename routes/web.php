@@ -15,6 +15,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'App\Http\Controllers\UsuariosController@index');
 
-Route::get('/registro', 'App\Http\Controllers\UsuariosController@registro');
+Route::get('/singin', 'App\Http\Controllers\UsuariosController@singin');
 
-Route::get('/ingresar', 'App\Http\Controllers\UsuariosController@ingresar');
+Route::get('/login', 'App\Http\Controllers\UsuariosController@login');
+
+Route::post('/ingresar', 'App\Http\Controllers\UsuariosController@ingresar');

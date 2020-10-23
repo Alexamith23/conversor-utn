@@ -1,9 +1,9 @@
 @extends ('layoud')
-
+@extends ('compartidos.navbar')
 @section ('contenido')
   <h1 class="masthead-heading mb-0">Descarga tus </h1>
   <h2 class="masthead-subheading mb-0">vídeos desde diferentes sitios de streaming, como youtube, vimeo, etc.</h2>
-  <a href="/ingresar" class="btn btn-primary btn-xl rounded-pill mt-5">Entrar</a>
+  <a href="/login" class="btn btn-primary btn-xl rounded-pill mt-5">Entrar</a>
 @endsection
 
 @section ('content')

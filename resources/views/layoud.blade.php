@@ -21,30 +21,14 @@
     <!-- <link href="/public/css/one-page-wonder.min.css" rel="stylesheet"> -->
 
     <link href="css/one-page-wonder.min.css" rel="stylesheet">
-    <link href="" rel="stylesheet">
+    <link href="css/css-main.css" rel="stylesheet">
+    
 
 </head>
 
 <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="/">Conversor Utn</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/registro">Registrarme</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/ingresar">Entrar</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+
     <header class="masthead text-center text-white">
         <div class="masthead-content">
             <div class="container">

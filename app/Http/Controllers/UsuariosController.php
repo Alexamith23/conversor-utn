@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\User;
 use App\Models\Usuarios;
 use Illuminate\Http\Request;
 
@@ -84,15 +85,22 @@ class UsuariosController extends Controller
         //
     }
 
-    public function registro()
+    public function singin()
     {
         //
         return view('usuarios.registro');
     }
 
-    public function ingresar()
+    public function login()
     {
         //
         return view('usuarios.ingresar');
+    }
+
+    public function ingresar()
+    {
+        return view("dashboard", 
+                    ['correo' => request('correo'), 
+                    'password' => request('password')]);
     }
 }
